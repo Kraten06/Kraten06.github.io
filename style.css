@@ -1,0 +1,77 @@
+html{
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+body{
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+.grad {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to top, red, yellow, pink)
+}
+
+.head {
+  height: 20px;
+  width: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: yellow;
+  border: black 1px solid;
+}
+
+.spacer{
+  height: 10px;
+  
+}
+
+.topright{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.box1 {
+  flex: 1;
+  height: 200px;
+  max-width: 200px;
+  min-width: 150px;
+  margin-left: 25%;
+  border: solid 3px;
+  border-radius: 50%;
+  transition: 2s;
+}
+
+.box2 {
+  flex: 1;
+  height: 200px;
+  max-width: 200px;
+  min-width: 150px;
+  border: solid 3px;
+  border-radius: 50%;
+  transition: 2s;
+}
+
+.box1:hover {
+  border-radius: 2%;
+}
+
+.box2:hover {
+  border-radius: 2%;
+}
+
+.boxholder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 500px) {
+  .topright{
+    display: none;
+  }
+}
