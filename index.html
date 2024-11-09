@@ -6,52 +6,49 @@
   <title>Document</title>
   <link href="style.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-</head>
 <body>
-<div class="grad">
-
-
-<div class="head">
-This is a header 
-</div>
-
-<div class="spacer">
-
-</div>
-
+<script scr="script.js"></script>
 
 <div>
-<span class="material-symbols-outlined">
-sticky_note_2
-</span>
+Header
 </div>
 
 <div>
-<span class="material-symbols-outlined">
-badge
-</span>
+ <button onclick="showit('divvy1')">Div1</button>
+ <button onclick="showit('divvy2')">Div2</button>
+ <button onclick="showit('divvy3')">Div3</button>
+ <button onclick="showit('divvy4')">Div4</button>
 </div>
 
-<div class="topright">
-<span class="material-symbols-outlined">
-pets
-</span>
+<div id="divvy1" style="display:block">
+ <div class="box red">
+ <div class="red1"> this is a rotated div</div>
+ RED-DIV1
+ </div>
 </div>
 
-<div class="spacer">
-
-</div>
-<div class="boxholder">
-<div class="box1">
-</div>
-
-<div class="box2">
-</div>
+<div id="divvy2" style="display:none">
+ <div class="box blue">
+ <div class="blue1"> this is a rotated div</div>
+ BLUE-DIV2
+ <div>Hello</div>
+ </div>
 </div>
 
-
+<div id="divvy3" style="display:none">
+ <div class="box yellow">
+ <div class="yellow1"> this is a rotated div</div>
+ YELLOW-DIV3
+ </div>
 </div>
-  <script src="script.js"></script>
+
+<div id="divvy4" style="display:none">
+ <div class="box green">
+ <div class="green1"> this is a rotated div</div>
+ GREEN-DIV3
+ </div>
+</div>
+
 </body>
 
 </html>
