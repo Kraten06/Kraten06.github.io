@@ -1,37 +1,59 @@
-html {
+html{
   height: 100%;
   width: 100%;
 }
 
+.whole{
+  background-color: ivory;
+}
+
+.header{
+  color: #474935;
+} 
+
+.buttons {
+  text-align: center;
+}
 
 .box {
   height: 400px;
   width: 800px;
   border: 1px black solid;
+  padding: 5px;
 }
 
 .red {
-  background-color: darkred;
+  
 }
 
 .blue {
-  background-color: dodgerblue;
+  
 }
 
 .yellow {
-  background-color: lightyellow;
+  
 }
 
 .green {
-  background-color: lightgreen;
+ 
+}
+
+.pink {  
+  
+}
+
+.purple {
+  
 }
 
 .red1 {
-  border: pink 3px dotted;
-  width: 125px;
-  padding: 5px;
-  margin: 5%;
-  transform: rotate(-20deg);
+  height: 20px;
+  width: 150px;
+  padding: 2px;
+  margin: 2%;
+  text-align: center;
+  color: #2660A4;
+  
 }
 
 .blue1 {
@@ -39,7 +61,6 @@ html {
   width: 125px;
   padding: 5px;
   margin: 8%;
-  transform: rotate(-70deg);
 }
 
 .yellow1 {
@@ -47,7 +68,6 @@ html {
   width: 125px;
   padding: 5px;
   margin: 8%;
-  transform: rotate(-120deg);
 }
 
 .green1 {
@@ -55,5 +75,12 @@ html {
   width: 125px;
   padding: 5px;
   margin: 5%;
-  transform: rotate(-180deg);
+}
+
+.pink1 {
+  
+}
+
+.purple1 {
+  
 }
