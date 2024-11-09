@@ -5,32 +5,41 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <link href="style.css" rel="stylesheet" type="text/css"/>
-
+  </head>
 <body>
 <script scr="script.js"></script>
 
-<div>
-Header
+<div class="whole">
+
+
+<div class="header">
+<h2> Kat's Art Showcase </h2>
+
 </div>
 
-<div>
- <button onclick="showit('divvy1')">Div1</button>
- <button onclick="showit('divvy2')">Div2</button>
- <button onclick="showit('divvy3')">Div3</button>
- <button onclick="showit('divvy4')">Div4</button>
+<div class="buttons">
+ <button onclick="showit('divvy1')">Home</button>
+ <button onclick="showit('divvy2')">About Me</button>
+ <button onclick="showit('divvy3')">Contact</button>
+ <button onclick="showit('divvy4')">Trad Art</button>
+ <button onclick="showit('divvy5')">Crochet</button>
+ <button onclick="showit('divvy6')">Photos</button>
 </div>
+<br>
 
 <div id="divvy1" style="display:block">
  <div class="box red">
- <div class="red1"> this is a rotated div</div>
- RED-DIV1
+ <div class="red1"> <h3>
+PHOTOGRAPHY, TRAD ART, & CROCHET
+ </h3> </div>
+ <!-- RED-DIV1 -->
  </div>
 </div>
 
 <div id="divvy2" style="display:none">
  <div class="box blue">
  <div class="blue1"> this is a rotated div</div>
- BLUE-DIV2
+ <!-- RED-DIV1 -->
  <div>Hello</div>
  </div>
 </div>
@@ -38,15 +47,30 @@ Header
 <div id="divvy3" style="display:none">
  <div class="box yellow">
  <div class="yellow1"> this is a rotated div</div>
- YELLOW-DIV3
+ <!-- RED-DIV1 -->
  </div>
 </div>
 
 <div id="divvy4" style="display:none">
  <div class="box green">
  <div class="green1"> this is a rotated div</div>
- GREEN-DIV3
+ <!-- RED-DIV1 -->
  </div>
+</div>
+
+<div id="divvy5" style="display:block">
+ <div class="box pink">
+ <div class="pink1"> this is a rotated div </div>
+ <!-- RED-DIV1 -->
+ </div>
+</div>
+
+<div id="divvy6" style="display:block">
+ <div class="box purple">
+ <div class="purple1"> this is a rotated div</div>
+ <!-- RED-DIV1 -->
+ </div>
+</div>
 </div>
 
 </body>
