@@ -1,77 +1,59 @@
 html{
   height: 100%;
-  margin: 0;
   width: 100%;
 }
 
-body{
-  height: 100%;
-  margin: 0;
-  width: 100%;
+
+.box {
+  height: 400px;
+  width: 800px;
+  border: 1px black solid;
 }
 
-.grad {
-  height: 100%;
-  width: 100%;
-  background-image: linear-gradient(to top, red, yellow, pink)
+.red {
+  background-color: darkred;
 }
 
-.head {
-  height: 20px;
-  width: 140px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: yellow;
-  border: black 1px solid;
+.blue {
+  background-color: dodgerblue;
 }
 
-.spacer{
-  height: 10px;
-  
+.yellow {
+  background-color: lightyellow;
 }
 
-.topright{
-  position: absolute;
-  top: 5px;
-  right: 5px;
+.green {
+  background-color: lightgreen;
 }
 
-.box1 {
-  flex: 1;
-  height: 200px;
-  max-width: 200px;
-  min-width: 150px;
-  margin-left: 25%;
-  border: solid 3px;
-  border-radius: 50%;
-  transition: 2s;
+.red1 {
+  border: pink 3px dotted;
+  width: 125px;
+  padding: 5px;
+  margin: 5%;
+  transform: rotate(-20deg);
 }
 
-.box2 {
-  flex: 1;
-  height: 200px;
-  max-width: 200px;
-  min-width: 150px;
-  border: solid 3px;
-  border-radius: 50%;
-  transition: 2s;
+.blue1 {
+  border: darkblue 3px dotted;
+  width: 125px;
+  padding: 5px;
+  margin: 8%;
+  transform: rotate(-70deg);
 }
 
-.box1:hover {
-  border-radius: 2%;
+.yellow1 {
+  border: deeppink 3px dotted;
+  width: 125px;
+  padding: 5px;
+  margin: 8%;
+  transform: rotate(-120deg);
 }
 
-.box2:hover {
-  border-radius: 2%;
-}
-
-.boxholder {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-@media only screen and (max-width: 500px) {
-  .topright{
-    display: none;
-  }
+.green1 {
+  border: maroon 3px dotted;
+  width: 125px;
+  padding: 5px;
+  margin: 5%;
+  transform: rotate(-180deg);
 }
