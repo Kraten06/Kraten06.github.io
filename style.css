@@ -1,10 +1,11 @@
 html{
   height: 100%;
   width: 100%;
+  background-color: ivory;
 }
 
 .whole{
-  background-color: white;
+  background-color: ivory;
   height: 100%;
   width: 100%;
 }
@@ -59,17 +60,18 @@ html{
 }
 
 .blue1 {
-  border: darkblue 3px dotted;
-  width: 125px;
-  padding: 5px;
-  margin: 8%;
+  xborder: darkblue 3px dotted;
+  width: 650px;
+  padding: 1px;
+  margin: 2%;
 }
 
 .yellow1 {
-  border: deeppink 3px dotted;
-  width: 125px;
+  xborder: deeppink 3px dotted;
+  width: 400px;
   padding: 5px;
-  margin: 8%;
+  margin: 2%;
+  text-align: left;
 }
 
 .green1 {
@@ -92,8 +94,12 @@ html{
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
-  position: relative;
-  margin: auto;
+  max-height: 400px;
+  position: absolute;
+  top: 200px;
+  left: 50%; 
+  transform: translateX(-50%); 
+  border: dotted 2px black;
 }
 
 /* Hide the images by default */
@@ -173,4 +179,13 @@ html{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.photo {
+  
+}
+
+.Aboutme {
+  width: 600px;
+  text-align: left;
 }
