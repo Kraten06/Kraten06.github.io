@@ -30,10 +30,11 @@ body {
 }
 
 .box {
-  height: 400px;
-  width: 800px;
-  border: 1px black solid;
-  padding: 5px;
+    height: 400px;
+    width: 100%; 
+    max-width: 800px; 
+    border: 1px solid black;
+    padding: 5px;
 }
 
 .red {
@@ -208,12 +209,31 @@ body {
 img{
   max-height: 100%;
   max-width: 100%;
+  object-fit: contain;
 }
 
 .p1 {
-  iflex: 1;
+  flex: 1;
   border: solid 2px;
   margin: 5px;
   height: 195px;
   width: 130px;
 }
+
+@media screen and (max-width: 768px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+        max-width: none; 
+    }
+
+    .slideshow-container {
+        width: 100%;
+        height: auto;
+    }
+}
+
