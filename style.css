@@ -18,6 +18,10 @@ html{
   text-align: center;
 }
 
+.button:hover {
+  xbackground-color: cyan;
+}
+
 .box {
   height: 400px;
   width: 800px;
@@ -108,7 +112,7 @@ html{
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prejjv, .nxxext {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -124,7 +128,7 @@ html{
 }
 
 /* Position the "next button" to the right */
-.next {
+.nxxext {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
@@ -188,4 +192,12 @@ html{
 .Aboutme {
   width: 600px;
   text-align: left;
+}
+
+.p1 {
+  iflex: 1;
+  border: solid 2px;
+  margin: 5px;
+  height: 195px;
+  width: 130px;
 }
