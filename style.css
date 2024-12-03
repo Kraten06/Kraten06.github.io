@@ -37,11 +37,6 @@ body {
     padding: 5px;
 }
 
-.topright {
-  padding: .5%;
-  margin-left: .5%;
-}
-
 .red {
   
 }
@@ -225,6 +220,54 @@ img{
   width: 130px;
 }
 
+.p2 {
+  flex: 1;
+  border: solid 2px;
+  margin: 5px;
+  height: 195px;
+  width: 130px;
+}
+
+.p3 {
+  flex: 1;
+  border: solid 2px;
+  margin: 5px;
+  height: 195px;
+  width: 130px;
+}
+
+.p4 {
+  flex: 1;
+  border: solid 2px;
+  margin: 5px;
+  height: 195px;
+  width: 130px;
+}
+
+.p5 {
+  flex: 1;
+  border: solid 2px;
+  margin: 5px;
+  height: 195px;
+  width: 130px;
+}
+
+.p6 {
+  flex: 1;
+  border: solid 2px;
+  margin: 5px;
+  height: 195px;
+  width: 130px;
+}
+
+.p7 {
+  flex: 1;
+  border: solid 2px;
+  margin: 5px;
+  height: 195px;
+  width: 130px;
+}
+
 @media screen and (max-width: 400px) {
     .buttons {
         display: flex;
@@ -242,3 +285,8 @@ img{
     }
 }
 
+.icon {
+  position: absolute;
+  top: 23px;
+  right: 6px;
+}
