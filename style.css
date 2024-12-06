@@ -33,7 +33,7 @@ body {
     height: 400px;
     width: 100%; 
     max-width: 800px; 
-    border: 1px solid black;
+    xborder: 1px solid black;
     padding: 5px;
 }
 
@@ -213,24 +213,24 @@ img{
 }
 
 .p1 {
-  flex: 1;
-  border: solid 2px;
+  gxflex: 1;
+  bborder: solid 2px;
   margin: 5px;
   height: 195px;
   width: 130px;
 }
 
 .p2 {
-  flex: 1;
-  border: solid 2px;
+  gxflex: 1;
+  bborder: solid 2px;
   margin: 5px;
   height: 195px;
   width: 130px;
 }
 
 .p3 {
-  flex: 1;
-  border: solid 2px;
+  gxflex: 1;
+  background-blend-modeborder: solid 2px;
   margin: 5px;
   height: 195px;
   width: 130px;
@@ -238,7 +238,7 @@ img{
 
 .p4 {
   flex: 1;
-  border: solid 2px;
+  bborder: solid 2px;
   margin: 5px;
   height: 195px;
   width: 130px;
@@ -246,7 +246,7 @@ img{
 
 .p5 {
   flex: 1;
-  border: solid 2px;
+  bborder: solid 2px;
   margin: 5px;
   height: 195px;
   width: 130px;
@@ -254,7 +254,7 @@ img{
 
 .p6 {
   flex: 1;
-  border: solid 2px;
+  bborder: solid 2px;
   margin: 5px;
   height: 195px;
   width: 130px;
@@ -262,7 +262,7 @@ img{
 
 .p7 {
   flex: 1;
-  border: solid 2px;
+  bborder: solid 2px;
   margin: 5px;
   height: 195px;
   width: 130px;
