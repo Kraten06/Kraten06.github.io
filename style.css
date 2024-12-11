@@ -60,7 +60,7 @@ body {
 .purple {
   height: 100%;
   width: 100%;
-  border: 1px black solid;
+  xborder: 1px black solid;
 }
 
 .red1 {
@@ -75,22 +75,22 @@ body {
 
 .blue1 {
   xborder: darkblue 3px dotted;
-  width: 650px;
+  width: 800px;
   padding: 1px;
   margin: 2%;
 }
 
 .yellow1 {
   xborder: deeppink 3px dotted;
-  width: 400px;
+  width: 700px;
   padding: 5px;
   margin: 2%;
   text-align: center;
 }
 
 .green1 {
-  border: maroon 3px dotted;
-  width: 125px;
+  xborder: maroon 3px dotted;
+  width: 600px;
   padding: 5px;
   margin: 5%;
 }
@@ -101,8 +101,8 @@ body {
 
 .purple1 {
   height: 160px;
-  width: 160px;
-  border: black solid 2px;
+  width: 600px;
+  xborder: black solid 2px;
 }
 
 * {box-sizing:border-box}
@@ -115,7 +115,7 @@ body {
   top: 200px;
   left: 50%; 
   transform: translateX(-50%); 
-  border: dotted 2px black;
+  xborder: dotted 2px black;
 }
 
 /* Hide the images by default */
@@ -203,25 +203,26 @@ body {
 
 .contact {
   text-align: center;
+  width: 700px;
 }
 
 .Aboutme1 {
-  width: 600px;
+  width: 700px;
   text-align: center;
 }
 
 .Aboutme2 {
-  width: 600px;
+  width: 700px;
   text-align: center;
 }
 
 .Aboutme3 {
-  width: 600px;
+  width: 700px;
   text-align: center;
 }
 
 .Aboutme4 {
-  width: 600px;
+  width: 700px;
   text-align: center;
 }
 
